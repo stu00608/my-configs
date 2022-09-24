@@ -21,8 +21,9 @@ Plug 'preservim/nerdcommenter' " show the fancy powerline status bar.
 call plug#end()
 
 " Set vim theme to dracula.
+let g:dracula_colorterm = 0
+let g:dracula_italic = 0
 colorscheme dracula
-set termguicolors
 let g:airline_theme='dracula'
 let g:airline_powerline_fonts = 1
 
